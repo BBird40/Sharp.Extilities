@@ -34,6 +34,8 @@
     <Reference Include="System.ServiceModel" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Format\BooleanFormatter.cs" />
+    <Compile Include="Format\CollectionDelimiterFormatter.cs" />
     <Compile Include="Sockets\CommunicationObjectExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

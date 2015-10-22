@@ -70,6 +70,8 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
+    <Compile Include="Format\BooleanFormatterTest.cs" />
+    <Compile Include="Format\CollectionDelimiterFormatterTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sockets\CommunicationObjectExtensionsTest.cs" />
   </ItemGroup>
@@ -82,6 +84,7 @@
       <Name>Sharp.Knife</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
